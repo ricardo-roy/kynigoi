@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Kynigoi</title>
+ <link href="http://localhost:4000/Gesko/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/Gesko/"/>
+ <updated>2022-08-05T17:30:49+02:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Richard Roy</name>
+   <email>richardphilipsroy@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Testing New Blog Post</title>
+   <link href="http://localhost:4000/Gesko/2022/08/05/testing-new-blog-post"/>
+   <updated>2022-08-05T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/08/05/testing-new-blog-post</id>
+   <content type="html">&lt;h2 id=&quot;this-is-a-heading&quot;&gt;This is a heading!&lt;/h2&gt;
+</content>
+ </entry>
+ 
+
+</feed>

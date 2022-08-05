@@ -1,0 +1,44 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Kynigoi",
+    "home_page_url": "http://localhost:4000/Gesko/",
+    "feed_url": "http://localhost:4000/Gesko/feed.json",
+    "description": "Kynigoi is where you find writeups about cybersecurity challenges.",
+    "icon": "http://localhost:4000/Gesko/apple-touch-icon.png",
+    "favicon": "http://localhost:4000/Gesko/favicon.ico",
+    "expired": false,
+    
+    "author":  {
+        "name": "Richard Roy",
+        "url": null,
+        "avatar": null
+    },
+    
+"items": [
+    
+        {
+            "id": "http://localhost:4000/Gesko/2022/08/05/testing-new-blog-post",
+            "title": "Testing New Blog Post",
+            "summary": null,
+            "content_text": "This is a heading!",
+            "content_html": "<h2 id=\"this-is-a-heading\">This is a heading!</h2>",
+            "url": "http://localhost:4000/Gesko/2022/08/05/testing-new-blog-post",
+            
+            
+            
+            
+            
+            "date_published": "2022-08-05T00:00:00+02:00",
+            "date_modified": "2022-08-05T00:00:00+02:00",
+            
+                "author":  {
+                "name": "Richard Roy",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        }
+    
+    ]
+}
