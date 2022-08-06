@@ -2,10 +2,10 @@ site: Kynigoi
 title: Kynigoi
 greetings: Hi 👋
 description: >-
- Kynigoi is where you find cybersecurity writeups.
+ Home
 lang: en-US
 timezone:  Europe/Rome
-repo: https://github.com/DavideBrie/Gesko # site repo [optional]
+repo: # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: powex # replace with your disqus shortname
 
