@@ -76,7 +76,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 1. Scan the machine with nmap, how many ports are open?
 
-  ``` 7 ```
+` 7 `
 
 ### Enumerating Samba for Shares
 
@@ -121,7 +121,7 @@ Nmap done: 1 IP address (1 host up) scanned in 62.39 seconds
 
 1. Using the nmap command above, how many shares have been found?
 
-  ```3```
+`3`
 
 Now let’s try to access the shares without a password, we can do this by username as ‘anonymous’ and leave the password empty.
 
@@ -135,9 +135,10 @@ smb: \> ls
   log.txt                             N    12237  Wed Sep  4 06:49:09 2019
 9204224 blocks of size 1024. 6877104 blocks available
 ```
-2. Once you’re connected, list the files on the share. What is the file can you see?
 
-  ```log.txt```
+1. Once you’re connected, list the files on the share. What is the file can you see?
+
+`log.txt`
 
 and let’s download the file with
 
@@ -148,7 +149,7 @@ and if you open the log.txt file after downloading you will find answers to the 
 
 3. What port is FTP running on?
 
-  ```21```
+`21`
 
 Now let’s enumerate RPC port 111 we found in our nmap scan and we are going to use nmap scripts to [list files on share](https://nmap.org/nsedoc/scripts/nfs-ls.html), [disk statistics](https://nmap.org/nsedoc/scripts/nfs-statfs.html) and [display mounts.](https://nmap.org/nsedoc/scripts/nfs-showmount.html)
 
@@ -183,11 +184,12 @@ Nmap done: 1 IP address (1 host up) scanned in 6.45 seconds
 
 4. What mount can we see?
 
-  ```/var```
+`/var`
 
 ### Gain Initial Access with ProFTPd
 
 Let’s make a raw connection to the FTP port with netcat to grab the service banner
+
 ```
 netcat 10.10.229.88 21                                                                                                                                                                                      1 ⨯
 220 ProFTPD 1.3.5 Server (ProFTPD Default Installation) [10.10.229.88]
@@ -196,7 +198,7 @@ ls
 
 1. What is the version?
 
-  ```1.3.5```
+`1.3.5`
 Use searchsploit to look for exploits on ProFTPD
 
 ```
@@ -214,7 +216,7 @@ Shellcodes: No Results
 
 2. How many exploits are there for the ProFTPd running?
 
-  ```4```
+`4`
 
 Now let’s copy kenobi private key from ‘/home/kenobi .ssh/’ to ‘/var/tmp/’ folder but first connect to port 21 with netcat
 
@@ -322,7 +324,7 @@ kenobi@kenobi:/$ find / -perm -u=s -type f 2>/dev/null
 
 1. What file looks particularly out of the ordinary?
 
-  ```/usr/bin/menu```
+`/usr/bin/menu`
 
 Run the binary
 
@@ -346,7 +348,7 @@ Content-Type: text/html
 
 2. Run the binary, how many options appear?
 
-  ```3```
+`3`
 
 We extract human readable strings from the binary with the strings command
 
@@ -377,7 +379,6 @@ AUATL
 curl -I localhost
 uname -r
 ifconfig
-
 ```
 
 And we can see the binary runs system commands
