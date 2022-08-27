@@ -267,6 +267,4 @@ and we logged in, Answer to the last question is found in smb.txt
 cat smb.txt
 ```
 
-🐾You can find the telnet writeup here [https://richardphilipsroy.medium.com/network-services-telnet-tryhackme-6c82292d9419](https://medium.com/network-services-telnet-tryhackme-6c82292d9419)
-
 Thank you for reading.

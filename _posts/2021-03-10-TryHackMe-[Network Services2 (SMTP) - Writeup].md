@@ -164,5 +164,3 @@ THM{who\_knew\_email\_servers\_were\_c00l?}
 ```
 
 Thank you for reading.
-
-🐾 Writeup on Network Services 2 MySql [https://richardphilipsroy.medium.com/network-services-2-mysql-tryhackme-7fb8ee180a98](https://medium.com/network-services-2-mysql-tryhackme-7fb8ee180a98)

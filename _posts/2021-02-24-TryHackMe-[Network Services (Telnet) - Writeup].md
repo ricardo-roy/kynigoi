@@ -160,5 +160,3 @@ And it will give you a reverse shell
 Cat flag.txt to answer the last question
 
 Thank you for reading.
-
-🐾Writeup on Network Services FTP here [https://richardphilipsroy.medium.com/network-services-ftp-tryhackme-6c22406d1444](https://medium.com/network-services-ftp-tryhackme-6c22406d1444)
