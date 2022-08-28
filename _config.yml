@@ -2,7 +2,6 @@ site: Kynigoi
 title: Kynigoi
 greetings: Welcome 👋
 description: >-
- My name is Richard Roy, I'm a CyberSecurity enthusiast and i created this blog for writing infosec content.
 lang: en-US
 timezone:  Europe/Rome
 repo: # site repo [optional]
